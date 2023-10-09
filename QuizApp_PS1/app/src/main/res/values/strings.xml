@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">QuizApp_PS1</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="q_planets">W układzie słonecznym występuje 8 oficjalnych planet.</string>
+    <string name="q_maths">3^3 + 4^2 = 81</string>
+    <string name="q_war">Pierwsza Wojna Światowa rozpoczęła się w 1939 roku.</string>
+    <string name="q_temp">Średnia temperatura ciała człowieka wynosi 36.6 stopni Celsjusza.</string>
+    <string name="q_skin">Skóra ludzka regeneruje się kompletnie co 28 dni.</string>
+    <string name="correct_answer">Dobra odpowiedź</string>
+    <string name="incorrect_answer">Zła odpowiedź</string>
+    <string name="twoj_wynik">Twój wynik:</string>
+    <string name="_0">0</string>
+    <string name="reset">Reset</string>
 </resources>
