@@ -1,0 +1,71 @@
+WŁĄCZENIE:
+2023-10-20 16:45:25.804 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Create
+2023-10-20 16:45:26.064 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 16:45:26.086 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+COFNIJ:
+2023-10-20 16:46:07.729 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 16:46:08.375 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+PONOWNE URUCHOMIENIE:
+2023-10-20 16:46:40.787 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 16:46:40.796 26063-26063 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+HOME:
+2023-10-20 16:47:47.018 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 16:47:47.394 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+POWRÓT:
+2023-10-20 16:48:00.576 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 16:48:00.581 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+OBRÓT:
+2023-10-20 16:48:09.630 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 16:48:09.632 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+2023-10-20 16:48:09.635 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Destroy
+2023-10-20 16:48:09.712 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Create
+2023-10-20 16:48:09.803 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 16:48:09.805 27027-27027 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+PYTANIE ZOSTAŁO USTAWIONE NA 1
+JEŚLI JESTEŚMY NA WYŚWIETLANIU WYNIKÓW TO PO OBROCIE WRACAMY NA START BEZ RESETU INDEKSÓW I PUNKTÓW
+
+SAVE INSTANCE:
+WŁĄCZENIE:
+2023-10-20 22:34:27.873 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Create
+2023-10-20 22:34:28.033 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 22:34:28.037 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+PYTANIE DO PRZODU
+COFNIJ:
+2023-10-20 22:36:51.513 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 22:36:51.930 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+2023-10-20 22:36:51.936 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on SaveInstanceState
+PONOWNE URUCHOMIENIE:
+2023-10-20 22:37:13.353 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 22:37:13.372 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+JEST DRUGIE PYTANIE
+HOME:
+2023-10-20 22:37:28.766 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 22:37:29.125 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+2023-10-20 22:37:29.128 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on SaveInstanceState
+POWRÓT:
+2023-10-20 22:37:37.957 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 22:37:37.975 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+DALEJ DRUGIE PYTANIE
+OBRÓT:
+2023-10-20 22:37:53.595 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 22:37:53.598 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+2023-10-20 22:37:53.599 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on SaveInstanceState
+2023-10-20 22:37:53.601 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Destroy
+2023-10-20 22:37:53.669 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Create
+2023-10-20 22:37:53.766 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 22:37:53.768 10795-10795 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+DALEJ DRUGIE PYTANIE
+PRZECHODZIMY DO WYNIKÓW
+OBRÓT:
+CRASH ZMIANA KODU
+OBRÓT:
+2023-10-20 22:39:36.774 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Pause
+2023-10-20 22:39:36.777 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Stop
+2023-10-20 22:39:36.778 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on SaveInstanceState
+2023-10-20 22:39:36.780 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Destroy
+2023-10-20 22:39:36.828 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Create
+2023-10-20 22:39:36.916 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Start
+2023-10-20 22:39:36.918 11389-11389 MyQuizTag               me.jorlowski.quiz_app                D  I'm on Resume
+DALEJ NASZ WYNIK
+RESET:
+PIERWSZE PYTANIE WSZYSTKO OK
