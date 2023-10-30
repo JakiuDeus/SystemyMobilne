@@ -13,18 +13,37 @@ import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.List;
+import java.util.UUID;
 
 public class TaskFragment extends Fragment {
-    private Task task;
+
+    private static final String ARG_TASK_ID = "argTaskId";
     private EditText nameField;
     private View view;
     private Button dateButton;
     private CheckBox doneCheckBox;
+    private Task task;
+    public static TaskFragment newInstance(UUID taskId) {
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(ARG_TASK_ID, taskId);
+        TaskFragment taskFragment = new TaskFragment();
+        taskFragment.setArguments(bundle);
+        return taskFragment;
+    }
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        UUID taskId = (UUID) getArguments().getSerializable(ARG_TASK_ID);
+        task = TaskStorage.getInstance().getTask(taskId);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
         view = getView();
-        task = new Task();
         nameField = view.findViewById(R.id.task_name);
         dateButton = view.findViewById(R.id.task_date);
         doneCheckBox = view.findViewById(R.id.task_done);
@@ -36,12 +55,12 @@ public class TaskFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
+                task.setName(s.toString());
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                task.setName(s.toString());
+
             }
         });
         dateButton.setText(task.getDate().toString());
@@ -54,5 +73,7 @@ public class TaskFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_task, container, false);
+
     }
+
 }

@@ -29,4 +29,12 @@ public class Task {
     public void setDone(boolean isChecked) {
         done = isChecked;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public UUID getId() {
+        return id;
+    }
 }
