@@ -15,7 +15,6 @@ public class Task {
         date = new Date();
         category = Category.HOME;
     }
-
     public Category getCategory() {
         return category;
     }

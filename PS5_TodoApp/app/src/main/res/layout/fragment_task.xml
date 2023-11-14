@@ -9,18 +9,21 @@
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="?colorAccent"
         android:text="@string/name_label" />
     <EditText
         android:id="@+id/task_name"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:textColor="?secondaryInnerColor"
+        android:textColorHint="?mid"
         android:hint="@string/name_hint"/>
 
     <TextView
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="?colorAccent"
         android:text="@string/details_label" />
 
     <EditText
@@ -32,11 +35,14 @@
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:autofillHints=""
+        android:textColor="?secondaryInnerColor"
         android:inputType="date" />
 
     <Spinner
         android:id="@+id/task_category"
         android:layout_width="wrap_content"
+        android:background="@color/midBlackWhite"
         android:layout_height="wrap_content"
-        />
+
+        android:padding="@dimen/task_item_padding" />
 </LinearLayout>

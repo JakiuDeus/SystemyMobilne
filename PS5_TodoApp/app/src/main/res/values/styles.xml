@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="mid">@color/midBlackWhite</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorAccentPink</item>
+
+        <item name="primaryInnerColor">@color/decentWhite </item>
+        <item name="primaryOuterColor">@color/white</item>
+        <item name="secondaryInnerColor">@color/decentGray</item>
+        <item name="secondaryOuterColor">@color/decentBlack</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+
+        <item name="primaryInnerColor">@color/decentGray </item>
+        <item name="primaryOuterColor">@color/decentBlack</item>
+        <item name="secondaryInnerColor">@color/decentWhite</item>
+        <item name="secondaryOuterColor">@color/white</item>
+    </style>
+</resources>

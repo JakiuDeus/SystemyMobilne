@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryInnerColor" format="color" />
+    <attr name="primaryOuterColor" format="color" />
+    <attr name="secondaryInnerColor" format="color" />
+    <attr name="secondaryOuterColor" format="color" />
+    <attr name="mid" format="color"/>
+</resources>

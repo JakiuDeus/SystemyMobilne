@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:backgroundTint="@color/white"
     android:orientation="horizontal"
-    android:padding="16dp">
+    android:layout_margin="@dimen/task_item_padding"
+    android:padding="@dimen/task_item_padding"
+    android:background="@drawable/border_layout"
+    >
     <CheckBox
         android:id="@+id/task_item_done"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:buttonTint="?secondaryInnerColor"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +24,7 @@
             android:id="@+id/task_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="?secondaryInnerColor"
             android:paddingStart="@dimen/task_item_padding"
             android:paddingTop="@dimen/task_item_padding"
             android:paddingEnd="@dimen/task_item_padding"
@@ -33,6 +38,7 @@
         <TextView
             android:id="@+id/task_item_date"
             android:layout_width="match_parent"
+            android:textColor="?secondaryInnerColor"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/task_item_padding"
             android:paddingTop="@dimen/task_item_padding"
