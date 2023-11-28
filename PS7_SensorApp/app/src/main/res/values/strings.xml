@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PS7_SensorApp</string>
+    <string name="sensor_info">Producent: %1$s \nMaksymalny zakres: %2$f</string>
+    <string name="close">Zamknij</string>
+    <string name="sensors_count">Liczba czujników: %d</string>
+    <string name="show_subtitle">Liczba sensorów</string>
+    <string name="hide_subtitle">Ukryj liczbę</string>
+    <string name="back_button">Powrót</string>
+    <string name="missing_sensor">Brak czujnika</string>
+    <string name="sensor_value">Wartość sensora: %f</string>
+    <string name="show_geo">Wciśnij przycisk, aby pobrać ostatnią lokalizację</string>
+    <string name="get_geo">Pobierz lokalizację</string>
+    <string name="location_permission_denied">Niewystarczające uprawnienia</string>
+    <string name="location_text">Szerokość geograficzna: %1$.4f \nDługość geograficzna: %2$.4f \nCzas: %3$tr</string>
+    <string name="no_location">Brak lokacji</string>
+    <string name="get_local">Pobierz adres</string>
+    <string name="address_text">Adres: %1$s \nCzas: %2$tr</string>
+    <string name="service_not_available">Serwis jest niedostępny</string>
+    <string name="no_address_found">Nie znaleziono adresu</string>
 </resources>
