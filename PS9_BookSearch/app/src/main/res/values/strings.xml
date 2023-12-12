@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PS9_BookSearch</string>
+    <string name="book_cover">Book cover</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear search</string>
+    <string name="isbns">ISBNs</string>
+    <string name="languages">Languages</string>
+    <string name="dates">Dates</string>
+    <string name="authors">Authors</string>
+    <string name="title">Title</string>
+    <string name="publishers">Publishers</string>
+    <string name="return_button">Return</string>
+    <string name="title_res">Title: %1$s</string>
+    <string name="author_res">Authors: %1$s</string>
+    <string name="publisher_res">Publishers: %1$s</string>
+    <string name="date_res">Dates: %1$s</string>
+    <string name="lang_res">Languages: %1$s</string>
+    <string name="isbn_res">ISBNs: %1$s</string>
+</resources>
